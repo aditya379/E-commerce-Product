@@ -30,7 +30,7 @@ const Slider = ({ onClose, images }) => {
           onClick={onClose}
         />
         </div>
-      <div className="mainimages flex items-center justify-between">
+      <div className="mainimages md:p-0 p-2 flex items-center justify-between">
         <div className="left">
         <img
           src="./images/icon-previous.svg"

@@ -44,7 +44,7 @@ const Product = ({ Slider, count, minus, plus, price, discount, CartAdd }) => {
     <main className="product width-[100%] mt-6 relative z-0">
       <div className="overlay"></div>
       {sliders && <Slider onClose={closeSlider} images={images} />}
-      <div className="submain flex md:flex-row flex-col items-center justify-between w-[90%] m-auto">
+      <div className="submain flex md:flex-row flex-col items-center md:p-0 p-5 justify-between w-[90%] m-auto">
         <div className="images md:w-1/2 flex flex-col gap-5">
           <div className="mainimages w-[100%]">
             <img
