@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Cart from "./cart";
 
 const Product = ({ Slider, count, minus, plus, price, discount, CartAdd }) => {
 
@@ -9,10 +8,10 @@ const Product = ({ Slider, count, minus, plus, price, discount, CartAdd }) => {
 
   const [sliders, setSliders] = useState(false);
   const images = [
-    "/images/image-product-1.jpg",
-    "/images/image-product-2.jpg",
-    "/images/image-product-3.jpg",
-    "/images/image-product-4.jpg",
+    "./images/image-product-1.jpg",
+    "./images/image-product-2.jpg",
+    "./images/image-product-3.jpg",
+    "./images/image-product-4.jpg",
   ];
   const [img, setImg] = useState(images[0]);
 
@@ -102,7 +101,7 @@ const Product = ({ Slider, count, minus, plus, price, discount, CartAdd }) => {
               <button
                 className="btn flex gap-2 items-center justify-center bg-orange-500 text-white py-2 px-8 rounded-md"
                 onClick={handleCheckout}>
-                <img src="/images/icon-cart.svg" alt="Cart" id="cartfilter" />
+                <img src="./images/icon-cart.svg" alt="Cart" id="cartfilter" />
                 Add to cart
               </button>
             </div>

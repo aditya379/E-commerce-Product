@@ -24,7 +24,7 @@ const Slider = ({ onClose, images }) => {
     <div className="images w-[100%] h-[100%] flex flex-col items-center justify-center fixed z-20 top-0 gap-5 ">
       <div className="close  h-12 md:ml-[400px] ml-[350px]">
         <img
-          src="/images/icon-close.svg"
+          src="./images/icon-close.svg"
           alt="Close"
           className="close md:w-5 w-6 mt-5  cursor-pointer"
           onClick={onClose}
@@ -33,7 +33,7 @@ const Slider = ({ onClose, images }) => {
       <div className="mainimages flex items-center justify-between">
         <div className="left">
         <img
-          src="/images/icon-previous.svg"
+          src="./images/icon-previous.svg"
           alt=""
           className="w-[30px] h-[30px] cursor-pointer  bg-gray-200 p-2 rounded-full border-[2px] border-orange-600"
           onClick={leftSlide}
@@ -48,7 +48,7 @@ const Slider = ({ onClose, images }) => {
         </div>
         <div className="right">
         <img
-          src="/images/icon-next.svg"
+          src="./images/icon-next.svg"
           alt=""
           className="w-[30px] h-[30px] cursor-pointer  bg-gray-200 p-2 rounded-full border-[2px] border-orange-600"
           onClick={rightSlide}
