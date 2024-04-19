@@ -7,7 +7,6 @@ const cart = ({ cartValue, price, count }) => {
   const [countValue, setcountValue] = useState(0);
 
   useEffect(() => {
-    setpriceValue(cartValue);
     setCartInfo(cartValue);
     setcountValue(count);
   }, [cartValue]);
